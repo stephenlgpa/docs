@@ -62,6 +62,7 @@ The contents of $myVar1 is Hello
 
 Stores the output of a command/s in a variable. Uses the form `$(command)`.
 
+
 ```
 workingDir=$(pwd)
 echo "The current directory is: $workingDir"
@@ -74,11 +75,15 @@ The current directory is: /home/steve/Scripts
 
 echo "The current directory is: $(pwd)"
 ```
-Refs: [Command Substitution](http://mywiki.wooledge.org/CommandSubstitution)  
-[What is the benefit of using $() instead of backticks in shell scripts? (Stack Overflow)](https://stackoverflow.com/questions/9449778/what-is-the-benefit-of-using-instead-of-backticks-in-shell-scripts<Paste>)
+
+References:
+
+1. [Command Substitution](http://mywiki.wooledge.org/CommandSubstitution)  
+2. [What is the benefit of using $() instead of backticks in shell scripts? (Stack Overflow)](https://stackoverflow.com/questions/9449778/what-is-the-benefit-of-using-instead-of-backticks-in-shell-scripts<Paste>)
 
 
 ## Dates
+
 
 ```
 $ date
