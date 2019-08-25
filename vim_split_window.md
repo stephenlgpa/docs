@@ -14,7 +14,7 @@ Use the following in COMMAND MODE.
 | **`:new`** | Split a window on new empty file
 | **`:nsplit`** | Split a window of n line height
 | **`ctrl-w +/-`** | Increase or decrease the size of a window split
-| **`n ctrl-w`** | Set the window to height n
+| **`:n ctrl-w _`** | Set the window to height n
 | **Vertical Splits** |
-| **:vsplit** | View of current file in new vertical split to right (all other commands are the same)
-| **:vnew** | Split a window vertically on a new file
+| **`:vsplit`** | View of current file in new vertical split to right (all other commands are the same)
+| **`:vnew`** | Split a window vertically on a new file
