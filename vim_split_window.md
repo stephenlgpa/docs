@@ -31,5 +31,5 @@ To use vertical splits (split down the middle of the screen) use:
 | **ctrl-w +/-** | Increase or decrease the size of a window split
 | **n ctrl-w** _ | Set the window to height n
 | **:vsplit** | View of current file in new vertical split to right
-| **Vertical Splits** | 
-- **:vsplit** | View of current file in new vertical split to right (all other commands are the same)
+| **Vertical Splits** |
+| **:vsplit** | View of current file in new vertical split to right (all other commands are the same)
