@@ -40,22 +40,22 @@ Prefacing the command with a number will execute the number that many times. E.g
 
 In Command Mode: 
 
-/text	search for next occurrence of "text"
-/n	search for next occurrence of "text"
-/N	search for previous occurrence of "text"
-?text	search for previous occurrence of "text"
-:%s/text/replacementText/g	search and replace text
-:%s/text/replacementText/gc	search and replace text with confirmation
+- /text	search for next occurrence of "text"
+- /n	search for next occurrence of "text"
+- /N	search for previous occurrence of "text"
+- ?text	search for previous occurrence of "text"
+- :%s/text/replacementText/g	search and replace text
+- :%s/text/replacementText/gc	search and replace text with confirmation
 
 ## Copying and Pasting Text
 
-v	highlight one character at a time.
-V	highlight one line at a time.
-Ctrl-v	highlight by columns.
-p	paste text after the current line.
-P	paste text on the current line.
-y	yank text into the copy buffer.
-yy	yank current line into the copy buffer.
+- v	highlight one character at a time.
+- V	highlight one line at a time.
+- Ctrl-v	highlight by columns.
+- p	paste text after the current line.
+- P	paste text on the current line.
+- y	yank text into the copy buffer.
+- yy	yank current line into the copy buffer.
 
 
 
