@@ -69,7 +69,7 @@ vim .gitignore
 
 - `git branch 'branchName'` :create a new branch called 'branchName'
 - `git checkout 'branchName'` :switch to the branch 'branchName'
-- `git commit -m "comment"` :changs are committed as normal to the new branch
+- `git commit -m "comment"` :changes are committed as normal to the new branch
 - `git merge 'branchName'` :merge the branch back into the master branch
 
 
