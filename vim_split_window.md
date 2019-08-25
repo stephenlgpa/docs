@@ -5,9 +5,9 @@ Use the following in COMMAND MODE.
 
 |   Command   |   Notes   |
 |   -------   |   -----   |
-| **:split** | Open current file in new split window pane (split horizontally)
-| **ctrl-w ctrl-w (or ctrl-w w)** | rotates through panes, top to bottom
-| **ctrl-w h/j/k/l** | Moves to the corresponding window (left, down, up, right)
+| `:split` | Open current file in new split window pane (split horizontally)
+| `ctrl-w ctrl-w (or ctrl-w w)` | rotates through panes, top to bottom
+| **`ctrl-w h/j/k/l`** | Moves to the corresponding window (left, down, up, right)
 | **:close** | Closes current window
 | **:quit** | Closes current window (quits Vim on last window)
 | **:split \<filename\>** | Split a window on another file
