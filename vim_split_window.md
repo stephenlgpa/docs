@@ -17,3 +17,4 @@ Use the following in COMMAND MODE.
 | **n ctrl-w** _ | Set the window to height n
 | **Vertical Splits** |
 | **:vsplit** | View of current file in new vertical split to right (all other commands are the same)
+| **:vnew** | Split a window vertically on a new file
