@@ -1,4 +1,4 @@
-# MySQL on Bash
+# MySQL on Commandline
 
 ## Running the MySQL Server
 
@@ -39,6 +39,20 @@ This runs mysql as user (`-u`) root, showing a password prompt (`-p`).
 - `-N`	suppress column names from the result output
 - `-?`	list all options
 
- 
+---
+
+## Backing Up Databases
+
+`sudo mysqldump --all-databases > bu_filename.sql`
+
+Saves the SQL commands to recreate all database structures, including the data.
+
+`sudo mysqldump --databases database1 database2 > bu_filename.sql`
+
+Backs up the named databases to the file.
+
+`sudo mysqldump database1 table1 table2 table3 > bu_filename.sql`
+
+Backs up only named tables from named database.
 
 
